@@ -30,7 +30,7 @@ func reformatDate(date string) string {
 	return result
 }
 
-func main() {
-	result := reformatDate("20th Oct 2052")
-	print(result)
-}
+//func main() {
+//	result := reformatDate("20th Oct 2052")
+//	print(result)
+//}
