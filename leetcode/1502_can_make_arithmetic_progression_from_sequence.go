@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func canMakeArithmeticProgression(arr []int) bool {
 	min := arr[0]
 	max := arr[0]
@@ -39,8 +37,8 @@ func canMakeArithmeticProgression(arr []int) bool {
 	return true
 }
 
-func main() {
-	result := canMakeArithmeticProgression([]int{1, 4, 3})
-
-	fmt.Println(result)
-}
+//func main() {
+//	result := canMakeArithmeticProgression([]int{1, 4, 3})
+//
+//	fmt.Println(result)
+//}
