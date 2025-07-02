@@ -27,8 +27,16 @@ func (s NotificationService) SendNotification(message string) {
 }
 
 func main() {
-	s := NotificationService{SlackNotifier{}}
-	s.SendNotification("Hello World")
+	//s := NotificationService{SlackNotifier{}}
+	//s.SendNotification("Hello World")
+
+	var a [3]int
+	b := make([]int, len(a))
+
+	copy(b, a[:])
+
+	b[0] = 42
+	fmt.Println(a, b)
 }
 
 // startegy -> tăng độ phức tạp
