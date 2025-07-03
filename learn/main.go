@@ -6,7 +6,7 @@ import (
 
 type Student struct {
 	Name     *StudentName `json:"name"`
-	Age      int          `json:"age", sql, validation`
+	Age      int          `json:"age"`
 	Color    []string     `json:"color"`
 	ColorMap map[string]int
 }
